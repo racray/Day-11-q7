@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="4"> 
+                    <h3>Yes!  I want to subscribe to <b><i>Mag-o-Zine</i></b></h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" name="fname" placeholder="Enter First Name" class="fname" id="fname"></td>
+                <td colspan="2"><input type="text" name="lname" placeholder="Enter Last Name" class="lname" id="lname"></td>
+            </tr>
+            <tr>
+               <td colspan="2" > <label for="fname">First Name</label></td>
+                <td colspan="2"><label for="lname">Last Name</label></td> 
+            </tr>
+            <br>
+            <tr>
+                <td colspan="4" class="address"><input type="text" id="address" name="address" class="address" placeholder="Enter Address"></td>
+            </tr>
+            <tr>
+                <td colspan="4" ><label for="address">Address </label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="city" id="city" placeholder="City"></td>
+                <td colspan="2"><input type="text" name="state" id="state" placeholder="State"></td>
+                <td><input type="number" name="zip" id="zip" placeholder="Zip"></td>
+            </tr>
+            <tr>
+                <td><label for="city">City</label></td>
+                <td colspan="2"><label for="state" >State</label></td>
+                <td><label for="zip">Zip</label></td>
+            </tr>
+        </tbody>
+     </table>
+     <br>
+     <label>Subscribe for: </label>
+    <input type="radio" name="subscribe" value="1 year" id="y1">
+    <label for="y1">1 year ($19.95)</label>
+    <input type="radio" name="subscribe" value="2 year" id="y2">
+    <label for="y2">2 years ($35.00)</label><br><br>
+
+    <label>Send me more information about: </label><br>
+    <input type="checkbox" name="computer zine"value="Computer Zine" id="cmzine">
+    <label for="cmzine">Computer Zine</label><br>
+    <input type="checkbox" name="Fishing zine" value="Fishing zine" id="fish">
+    <label for="fish">Fishing zine</label><br>
+    <input type="checkbox" name="Cat O zine" value="Cat O zine" id="catz">
+    <label for="catz">Cat O zine</label><br>
+    </div>
+</body>
+</html>
